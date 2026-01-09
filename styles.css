@@ -106,9 +106,13 @@ nav .menu a{
     cursor: pointer;
     font-size: 16px;
     margin-right: 16px;
+    font-weight: bold; 
 }
 .building:hover{
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+.building i{
+    margin-left:10px;
 }
 .see-how-it-works{
     background-color: transparent;
@@ -119,11 +123,14 @@ nav .menu a{
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
 }
 .see-how-it-works:hover{
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
-
+.see-how-it-works i{
+    margin-right: 10px;
+}
 #notes{
    height: 600px;
    width: 1600px;
