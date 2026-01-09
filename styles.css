@@ -44,6 +44,9 @@ nav .menu a{
     font-size: 14px;
     font-weight: 600;
 }
+.menu a:hover{
+    color: #2f9f61;
+}
 
 .btn{
     background: #2f9f61;
@@ -104,6 +107,9 @@ nav .menu a{
     font-size: 16px;
     margin-right: 16px;
 }
+.building:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
 .see-how-it-works{
     background-color: transparent;
     color: white;
@@ -114,6 +120,10 @@ nav .menu a{
     cursor: pointer;
     font-size: 16px;
 }
+.see-how-it-works:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
 #notes{
    height: 600px;
    width: 1600px;
@@ -236,6 +246,10 @@ nav .menu a{
     font-weight: 600;
     color: #001931;
 }
+.feature-list li i{
+    color: #469165;
+    margin-right: 8px;
+}
 #ready-to-think{
     height: auto;
     width: 1600px;
@@ -268,4 +282,60 @@ nav .menu a{
     line-height: 20px;
     margin-top: 16px;
     margin-bottom: 24px;
+}
+footer{
+    width: 1600px;
+    background-color: #001931;
+    margin: 0 auto;
+    height: auto;
+    padding: 100px 120px 30px 120px;
+    margin-top: 120px;
+}
+
+.footer-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.logo-social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-social-media img{
+    width: 139px;
+    height: 60px;
+}
+.logo-social-media p{
+    color: #FFFFFF;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom:10px;
+
+}
+.logo-social-media .social-icons{
+    display: flex;
+    gap: 16px;
+
+}
+.social-icons :hover{
+    cursor: pointer;
+}
+.logo-social-media .social-icons i{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.footer-bottom{
+    margin-top: 40px;
+}
+.footer-bottom hr{
+    border: none;
+    border-top: 1px solid #4A5568;
+}
+.footer-bottom p{
+    color: #4A5568;
+    text-align: center;
+}
+/* shared style */
+button:hover{
+    box-shadow: 0 0 8px #001931;
 }
