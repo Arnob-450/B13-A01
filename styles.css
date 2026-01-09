@@ -115,7 +115,7 @@ nav .menu a{
     font-size: 16px;
 }
 #notes{
-   height: auto;
+   height: 600px;px ;
    width: 100%;
    background-color: #f9f9f9;
    padding: 80px 20px;
@@ -180,4 +180,58 @@ nav .menu a{
     color: #627382;
     line-height: 20px;
 }
+#second-Brain{
+   height: auto;
+   width: 100%;
 
+   margin-top: 120px;
+   
+}
+.second-brain-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.second-brain-container.second-brain-img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.second-brain-text-container{
+    
+    margin-left: 60px;
+}
+.solution{
+    color:#469165;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.second-brain-text-container h1{
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    color: #001931;
+}
+.second-brain-text-container p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 25px;
+
+}
+.feature-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.feature-list li{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #001931;
+}
